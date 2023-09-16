@@ -1,3 +1,6 @@
+# React counter app
+This is a counter app in react js using state and events.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
