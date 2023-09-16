@@ -8,16 +8,18 @@ function App() {
   function increaseCount() {
     setCount(count+1);
   }
-
-
-
+  function decreaseCount() {
+    setCount(count-1);
+  }
   return (
     <section>
       <div className='container'>
         <h1>Counter App</h1>
         <h2>{count}</h2>
         <div classname='btns'>
-          <button>
+          <button
+            onClick={decreaseCount}
+          >
             Decrease
           </button>
           <button
